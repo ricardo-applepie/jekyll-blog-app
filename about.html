@@ -11,8 +11,58 @@ layout: headman
   </div>
   <div class="team-members__image">
     <img class="team-members__image-img" src="{{site.baseurl}}/assets/images/team.png" alt="">
+
+
   </div>
+  <div class="members-names__inventions">
+    <p class="members-names__inventions-tim">
+
+      SIMON HOSSELL founder
+      <br />
+      <br />
+      <br />
+      <br />
+      Tim invented the |pipe| technology and filed the technical patents.
+      <br>
+      <br>
+      Prior to starting |pipe| he cofounded a web-based telephony company and subsequently sold the IPR to Tropo Inc.,
+      which
+      was then acquired by Cisco. Before that, Tim was technical cofounder of Westpoint, a web security company
+      recently
+      acquired by Capita.
+      <br>
+      <br>
+      Tim writes all the |pipe| software and manages product development and - leveraging all this experience - he
+      helps
+      define WebRTC standards at the W3C and IETF
+    </p>
+    <p class="members-names__inventions-simon">
+
+      SIMON HOSSELL founder
+      <br />
+      <br />
+      <br />
+      <br />
+      Simon is an experienced telecoms entrepreneur, a specialist in business strategy, sales and marketing, finance,
+      legal and
+      media.
+      <br />
+      <br />
+      Prior to founding |pipe| he set up and ran European operations for:
+      <br />
+      <br />
+      Gracenote, a California-based company, licensing software and data services to large consumer electronics OEMs,
+      automobile companies and entertainment services like Philips, Nokia, Sony Ericsson, VW, Spotify, etc. Gracenote
+      was
+      acquired by Sony Corporation of America.
+    </p>
+  </div>
+
 </section>
+
+
+
+
 
 <section class="members-experience">
   <div class="members-names">
@@ -48,17 +98,12 @@ layout: headman
   </div>
 </section>
 
-
-
-<div class=" content-wrapper main-text">
-  <h1 class="content main-text__blue-border text-center">WE BELIEVE</h1>
-
-</div>
-
-
-
 <section class="we-believe">
-  <div>
+  <div class=" content-wrapper main-text members-experience__conntainer">
+    <h1 class="content main-text__blue-border text-center">WE BELIEVE</h1>
+  </div>
+
+  <div class="we-believe__explanation">
     <p>
       that the Internet of Things should be secure, private and simple. Yet all too often IoT developers are lacking in
       security experience and missing the tools they require. So with |pipe| we’re offering them a complete security
@@ -70,10 +115,6 @@ layout: headman
 
   </div>
 </section>
-
-
-
-
 
 
 <section>
@@ -2871,6 +2912,11 @@ layout: headman
   </div>
 
 </section>
+
+
+
+
+
 <style>
   img {
     width: 100%;
@@ -2879,12 +2925,14 @@ layout: headman
 
   .team-members__image-img {
     margin-bottom: 2rem;
+    position: relative;
   }
 
   .we-believe {
     margin-bottom: 5rem;
     width: 90%;
     margin: 0 auto;
+
   }
 
   .members-names__first,
@@ -2900,16 +2948,15 @@ layout: headman
   }
 
   .main-text__blue-border::before {
-    content: "";
-    width: 75%;
-    border: 5px solid #096EF3;
-    position: relative;
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 284px;
     display: block;
-    margin: 2rem;
+    margin: 0.8rem auto;
+    position: relative;
   }
 
-
-  .we-believe p {
+  .main .we-believe p {
     font-size: 1.3rem;
     line-height: 2.5;
   }
