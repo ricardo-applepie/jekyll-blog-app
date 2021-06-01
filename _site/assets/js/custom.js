@@ -23,64 +23,7 @@ $(function () {
     });
 });
 
-let iframe = document.querySelector(".youtube-video")
 
-
-    //video - bottom
-
-    const placeHolderImageButton = document.querySelector(".placeholder__image");
-const player2Video = document.querySelector("#second_video");
-var vid = document.getElementById("myVideo");
-
-
-
-function pauseVid() {
-    vid.pause();
-}
-vid.pause();
-    $(window).scroll(function () {
-        var top_of_element = $(".second-section").offset().top - 100;
-        var bottom_of_element = $(".second-section").offset().top + $(".second-section").outerHeight();
-        var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-        var top_of_screen = $(window).scrollTop();
-
-        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
-            // the element is visible, do something
-            function playVid() {
-                vid.play();
-            }
-            playVid()
-        } else {
-            function pauseVid() {
-                vid.pause();
-            }
-            pauseVid()
-        }
-    });
-   
-
-function playYoutubeVideo() {
-    if (placeHolderImageButton) {
-        placeHolderImageButton.classList.add("hide_youtube_placeholder");
-        player2Video.style.visibility = 'visible';
-       
-        second_video.play();
-    }
-}
-
-function pauseVideo() {
-    if (second_video.paused) {
-        
-        placeHolderImageButton.addEventListener("click", playYoutubeVideo)
-    }
-}
-
-pauseVideo()
-
-second_video.onpause = function () {
-    placeHolderImageButton.classList.remove("hide_youtube_placeholder");
-    player2Video.style.visibility = 'hidden';
-};
 
 let buttons = document.querySelector(".mobile-slider__menu")
 let element = document.querySelector(".header__menu-icon")
@@ -149,3 +92,61 @@ if (showTimbtn) {
 
 
 
+let iframe = document.querySelector(".youtube-video")
+
+
+//video - bottom
+
+const placeHolderImageButton = document.querySelector(".placeholder__image");
+const player2Video = document.querySelector("#second_video");
+var vid = document.getElementById("myVideo");
+
+
+
+function pauseVid() {
+    vid.pause();
+}
+vid.pause();
+$(window).scroll(function () {
+    var top_of_element = $(".second-section").offset().top - 100;
+    var bottom_of_element = $(".second-section").offset().top + $(".second-section").outerHeight();
+    var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+    var top_of_screen = $(window).scrollTop();
+
+    if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+        // the element is visible, do something
+        function playVid() {
+            vid.play();
+        }
+        playVid()
+    } else {
+        function pauseVid() {
+            vid.pause();
+        }
+        pauseVid()
+    }
+});
+
+
+function playYoutubeVideo() {
+    if (placeHolderImageButton) {
+        placeHolderImageButton.classList.add("hide_youtube_placeholder");
+        player2Video.style.visibility = 'visible';
+
+        second_video.play();
+    }
+}
+
+function pauseVideo() {
+    if (second_video.paused) {
+
+        placeHolderImageButton.addEventListener("click", playYoutubeVideo)
+    }
+}
+
+pauseVideo()
+
+second_video.onpause = function () {
+    placeHolderImageButton.classList.remove("hide_youtube_placeholder");
+    player2Video.style.visibility = 'hidden';
+};
