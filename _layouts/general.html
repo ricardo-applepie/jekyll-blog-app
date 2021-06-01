@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head-meta.html %}
+
+
+
+<body>
+
+    {% include slider-menu.html %}
+    <div class="container general-container mobile-container">
+        <div class="container__wrapper">
+
+            <div class="inner__container">
+
+
+                {% include mobile-menu.html %}
+                {{content}}
+                {% include footer.html %}
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="{{site.baseurl}}/assets/js/jquery.min.js" defer></script>
+
+<script src="{{site.baseurl}}/assets/js/custom.min.js " defer></script>
+
+
+</html>

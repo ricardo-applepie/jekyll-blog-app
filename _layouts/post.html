@@ -1,0 +1,221 @@
+---
+layout: general
+---
+
+
+<div class="blog__post-container">
+
+    <div class="blog__title">
+        <p class="content-small">In the media</p>
+
+    </div>
+    <h1 class="content">{{page.title}}</h1>
+    {{content}}
+    <div class="author-and-date">
+
+        <p class="title is-3">{{page.author}},</p>
+        <p class="content">{{ page.date | date: '%B %d,%Y'}}
+        </p>
+    </div>
+    <div class="PageNavigation">
+        {% if page.previous.url %}
+        <a class="prev" href="/pipe/{{page.previous.url}}">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119" height="125"
+                viewBox="0 0 119 125">
+                <defs>
+                    <clipPath id="clip-Arrow">
+                        <rect width="119" height="125" />
+                    </clipPath>
+                </defs>
+                <g id="Arrow" clip-path="url(#clip-Arrow)">
+                    <g id="bg" transform="translate(22 25)" fill="none" stroke="#fff" stroke-width="1.2">
+                        <rect width="75" height="75" rx="37.5" stroke="none" />
+                        <rect x="0.6" y="0.6" width="73.8" height="73.8" rx="36.9" fill="none" />
+                    </g>
+                    <rect id="bg-2" data-name="bg" width="35" height="35" transform="translate(42 45)" fill="none" />
+                    <path id="icon"
+                        d="M8.9,18.9l-8.4-8.4-.011-.008A1.069,1.069,0,0,1,.016,9.414a1,1,0,0,1,.562-.8L8.9.293a1,1,0,0,1,1.414,0L10.4.381a1,1,0,0,1,0,1.414L3.681,8.512H21.676a1,1,0,0,1,1,1v.125a1,1,0,0,1-1,1H3.641L10.4,17.394a1,1,0,0,1,0,1.414l-.088.088a1,1,0,0,1-1.414,0Z"
+                        transform="translate(48.156 52.926)" fill="#fff" />
+                </g>
+            </svg>
+
+
+        </a>
+        {% endif %}
+        {% if page.next.url %}
+        <a class="next" href="/pipe/{{page.next.url}}">
+
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133" height="133"
+                viewBox="0 0 133 133">
+                <defs>
+                    <clipPath id="clip-Icon_next">
+                        <rect width="133" height="133" />
+                    </clipPath>
+                </defs>
+                <g id="Icon_next" clip-path="url(#clip-Icon_next)">
+                    <g id="bg" transform="translate(104 104) rotate(180)" fill="none" stroke="#fff" stroke-width="1.2">
+                        <rect width="75" height="75" rx="37.5" stroke="none" />
+                        <rect x="0.6" y="0.6" width="73.8" height="73.8" rx="36.9" fill="none" />
+                    </g>
+                    <rect id="bg-2" data-name="bg" width="35" height="35" transform="translate(84 84) rotate(180)"
+                        fill="none" />
+                    <path id="icon"
+                        d="M8.956,18.958.639,10.64A1.111,1.111,0,0,1,.114,9.326a1,1,0,0,1,.428-.561L.55,8.76,8.956.354a1,1,0,0,1,1.415,0l.088.088a1,1,0,0,1,0,1.415L3.7,8.614H21.737a1,1,0,0,1,1,1v.124a1,1,0,0,1-1,1H3.742l6.717,6.717a1,1,0,0,1,0,1.414l-.088.088a1,1,0,0,1-1.415,0Z"
+                        transform="translate(77.905 76.176) rotate(180)" fill="#fff" />
+                </g>
+            </svg>
+
+        </a>
+        {% endif %}
+    </div>
+
+
+
+    <div class="more-articles">
+        <h2>MORE ARTICLES</h2>
+    </div>
+
+    <div>
+
+        <ul>
+
+
+            <div class="blogs__list">
+                {% assign sorted = site.posts | sort: 'date' %}
+                {% for post in sorted limit:4 %}
+                <div class="blog-container">
+                    <div class="post-svg">
+                        {% if post.number == "2" %}
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99"
+                            height="98" viewBox="0 0 99 98">
+                            <defs>
+                                <clipPath id="clip-Icon_text">
+                                    <rect width="99" height="98" />
+                                </clipPath>
+                            </defs>
+                            <g id="Icon_text" clip-path="url(#clip-Icon_text)">
+                                <g id="Gruppe_4958" data-name="Gruppe 4958" transform="translate(28.667 27.666)">
+                                    <g id="Gruppe_3776" data-name="Gruppe 3776" transform="translate(0 0)">
+                                        <g id="Ellipse_20007" data-name="Ellipse 20007"
+                                            transform="translate(0.333 0.333)" fill="none" stroke="#fff"
+                                            stroke-width="0.5">
+                                            <circle cx="21" cy="21" r="21" stroke="none" />
+                                            <circle cx="21" cy="21" r="20.75" fill="none" />
+                                        </g>
+                                        <path id="Pfad_12505" data-name="Pfad 12505" d="M0,0V26.592"
+                                            transform="translate(34.672 22.342) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-width="2" />
+                                        <path id="Pfad_12507" data-name="Pfad 12507" d="M0,0V26.592"
+                                            transform="translate(34.672 27.053) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-width="2" />
+                                        <path id="Pfad_12506" data-name="Pfad 12506" d="M0,0V26.592"
+                                            transform="translate(34.672 17.63) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-width="2" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+
+
+                        {% endif %}
+                        {% if post.title == "Is innovative" %}
+                        <svg class="blog__post-svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="98" viewBox="0 0 99 98">
+                            <defs>
+                                <clipPath id="clip-Icon_text">
+                                    <rect width="99" height="98" />
+                                </clipPath>
+                            </defs>
+                            <g id="Icon_text" clip-path="url(#clip-Icon_text)">
+                                <g id="Gruppe_4958" data-name="Gruppe 4958" transform="translate(28.667 27.666)">
+                                    <g id="Gruppe_3776" data-name="Gruppe 3776" transform="translate(0 0)">
+                                        <g id="Ellipse_20007" data-name="Ellipse 20007"
+                                            transform="translate(0.333 0.333)" fill="none" stroke="#fff"
+                                            stroke-width="0.5">
+                                            <circle cx="21" cy="21" r="21" stroke="none" />
+                                            <circle cx="21" cy="21" r="20.75" fill="none" />
+                                        </g>
+                                        <path id="Pfad_12505" data-name="Pfad 12505" d="M0,0V26.592"
+                                            transform="translate(34.672 22.342) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-width="2" />
+                                        <path id="Pfad_12507" data-name="Pfad 12507" d="M0,0V26.592"
+                                            transform="translate(34.672 27.053) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-width="2" />
+                                        <path id="Pfad_12506" data-name="Pfad 12506" d="M0,0V26.592"
+                                            transform="translate(34.672 17.63) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-width="2" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+
+                        {% endif %}
+                        {% if post.title == "Welcome" %}
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98"
+                            height="98" viewBox="0 0 98 98">
+                            <defs>
+                                <clipPath id="clip-Icon_play">
+                                    <rect width="98" height="98" />
+                                </clipPath>
+                            </defs>
+                            <g id="Icon_play" clip-path="url(#clip-Icon_play)">
+                                <g id="Ellipse_19981" data-name="Ellipse 19981" transform="translate(29 24.499)"
+                                    fill="none" stroke="#fff" stroke-width="0.5">
+                                    <circle cx="21" cy="21" r="21" stroke="none" />
+                                    <circle cx="21" cy="21" r="20.75" fill="none" />
+                                </g>
+                                <path id="Polygon_7" data-name="Polygon 7"
+                                    d="M8.958,1.747a1,1,0,0,1,1.782,0l8.217,16.115a1,1,0,0,1-.891,1.454H1.632a1,1,0,0,1-.891-1.454Z"
+                                    transform="translate(61.652 35.467) rotate(90)" fill="#fff" />
+                            </g>
+                        </svg>
+
+
+                        {% endif %}
+
+
+                    </div>
+                    <div class="blog__post">
+                        <h1 class="blog__item-number">{{ post.number }}</h1>
+
+                    </div>
+                    <p class="blog__post-subtitle">{{ post.subtitle }}</p>
+
+                    <h2 class="blog__item-title"><a href="/pipe{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="blog__post-excerpt">
+                        {{ post.excerpt | strip_html | truncatewords:25 }}
+
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+
+
+        </ul>
+    </div>
+
+</div>
+
+<div class="blog-svg-icon">
+    <a href="{{site.baseurl}}/blog">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133" height="133"
+            viewBox="0 0 133 133">
+            <defs>
+                <clipPath id="clip-Icon_next">
+                    <rect width="133" height="133" />
+                </clipPath>
+            </defs>
+            <g id="Icon_next" clip-path="url(#clip-Icon_next)">
+                <g id="bg" transform="translate(104 104) rotate(180)" fill="none" stroke="#fff" stroke-width="1.2">
+                    <rect width="75" height="75" rx="37.5" stroke="none" />
+                    <rect x="0.6" y="0.6" width="73.8" height="73.8" rx="36.9" fill="none" />
+                </g>
+                <rect id="bg-2" data-name="bg" width="35" height="35" transform="translate(84 84) rotate(180)"
+                    fill="none" />
+                <path id="icon"
+                    d="M8.956,18.958.639,10.64A1.111,1.111,0,0,1,.114,9.326a1,1,0,0,1,.428-.561L.55,8.76,8.956.354a1,1,0,0,1,1.415,0l.088.088a1,1,0,0,1,0,1.415L3.7,8.614H21.737a1,1,0,0,1,1,1v.124a1,1,0,0,1-1,1H3.742l6.717,6.717a1,1,0,0,1,0,1.414l-.088.088a1,1,0,0,1-1.415,0Z"
+                    transform="translate(77.905 76.176) rotate(180)" fill="#fff" />
+            </g>
+        </svg>
+    </a>
+</div>

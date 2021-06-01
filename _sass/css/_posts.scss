@@ -1,0 +1,24 @@
+.blog{
+  &__post {
+    &-container {
+      ul {
+        list-style: disc;
+      }
+      ol {
+        list-style: decimal; 
+      }
+      ol, ul {
+        padding: 1rem 0 1rem 1rem;
+      }
+      blockquote {
+        border-left: 3px solid #bbc3cb;
+        padding: 10px 0 10px 30px;
+        margin: 20px 0;
+        font-size: 18px;
+        font-style: italic;
+        background: rgba(220, 235, 245, 0.2);
+      }
+      
+    }
+  }
+}
