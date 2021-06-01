@@ -116,7 +116,7 @@ p span{
     color:var(--main-button-color);
 }
 .mobile-icon {
-    width: 28px !important;
+    width: 22px !important;
     float: right;
 }
 .desktop-menu li  {
@@ -345,8 +345,8 @@ svg{
 .mobile-slider__menu-list-item {
     padding: 8% 0 0 0;
 }
-.mobile-slider__menu-list-logo{
-    margin: 6rem 0 4rem 0;
+.mobile-slider__menu-list-logo {
+    margin: 4rem 0 1rem 0;
 }
 .mobile-slider__menu-list{
     display: flex;
@@ -817,10 +817,11 @@ table {
    margin: 0px auto;
    position: relative;
 }
-.header__menu-icon{
+.header__menu-icon {
     float: right;
-margin-right: 1rem;
-flex: 1;
+    margin-right: 1rem;
+    flex: 1;
+    margin-top: -5px;
 }
 
 .header__menu-icon svg {

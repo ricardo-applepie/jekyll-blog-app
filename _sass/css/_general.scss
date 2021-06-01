@@ -11,7 +11,28 @@
 
 
 
+@media screen and (min-width : 400px) and (max-width : 500px) {
+.mobile-svg {
+    position: absolute;
+    top: 160px;
+    left: -21%;
+    z-index: -1000;
+}
+.video {
+    margin-bottom: 13rem;
+    margin-top: 11rem;
+}
+.services__list {
+    position: relative;
+    margin-bottom: 10rem ;
+    text-align: center;
+}
+.service__wrapper-second .services__item {
+    text-align: center;
+    margin-bottom: 11rem;
+}
 
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (min-width : 340px) and (max-width : 480px) {
 /* Styles */
@@ -54,8 +75,9 @@
 }
 .mobile-svg {
     position: absolute;
-    top: 80px;
+    top: 160px;
     left: -21%;
+    z-index: -1000;
 }
 
 p.services__item__text {
@@ -67,6 +89,7 @@ p.services__item__text {
   
     padding-bottom: 29%;
 }
+
 .mobile-svg {
     position: absolute;
     top: 125px !important;
@@ -91,6 +114,7 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+
 .second-section{
     margin-top: 22%;
 }
@@ -383,10 +407,7 @@ tspan {
     font-family: 'PT Sans';
 }
 .mobile-svg {
-    position: absolute;
-    top: 128px;
-    left: -19%;
-    width: 1122px;
+    display:none;
 }
 .ptz-cam__svg svg{
     display: none;
@@ -546,6 +567,7 @@ li.footer__list-item {
     top: 80px;
     width: 1443px;
     left: -22%;
+    z-index: -1000;
 }
 .blog-svg-top,.blog-rotated__img,.blog-rotated__svg {
  display: none;
