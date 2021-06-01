@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/pipe/feed.xml" rel="self" type="application/atom+xml" /><link href="/pipe/" rel="alternate" type="text/html" /><updated>2021-06-01T16:49:31+02:00</updated><id>/pipe/feed.xml</id><title type="html">pipe</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome</title><link href="/pipe/second/" rel="alternate" type="text/html" title="Welcome" /><published>2021-04-10T03:43:00+02:00</published><updated>2021-04-10T03:43:00+02:00</updated><id>/pipe/second</id><content type="html" xml:base="/pipe/second/">&lt;p&gt;&lt;img src=&quot;/pipe/assets/images/Team.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/pipe/feed.xml" rel="self" type="application/atom+xml" /><link href="/pipe/" rel="alternate" type="text/html" /><updated>2021-06-01T17:12:59+02:00</updated><id>/pipe/feed.xml</id><title type="html">pipe</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome</title><link href="/pipe/second/" rel="alternate" type="text/html" title="Welcome" /><published>2021-04-10T03:43:00+02:00</published><updated>2021-04-10T03:43:00+02:00</updated><id>/pipe/second</id><content type="html" xml:base="/pipe/second/">&lt;p&gt;&lt;img src=&quot;/pipe/assets/images/Team.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -166,13 +166,35 @@ interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum�
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;the-quarterly-results-look-great&quot;&gt;The quarterly results look great!&lt;/h4&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Revenue was off the chart.&lt;/li&gt;
+    &lt;li&gt;Profits were higher than ever.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;em&gt;Everything&lt;/em&gt; is going according to &lt;strong&gt;plan&lt;/strong&gt;.
+&lt;strong&gt;bold text&lt;/strong&gt;
+Italicized text is the &lt;em&gt;cat’s meow&lt;/em&gt;.
 Vardy sjdhsad Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;why-do-we-use-it&quot;&gt;Why do we use it?&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;It is a long established&lt;/strong&gt; fact that a reader will be distracted by the readable content of a page when looking at its layout.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;First item&lt;/li&gt;
+  &lt;li&gt;Second item&lt;/li&gt;
+  &lt;li&gt;Third item
+    &lt;ul&gt;
+      &lt;li&gt;Indented item&lt;/li&gt;
+      &lt;li&gt;Indented item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fourth item
+&lt;strong&gt;It is a long established&lt;/strong&gt; fact that a reader will be distracted by the readable content of a page when looking at its layout.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’,&lt;/p&gt;
@@ -197,4 +219,4 @@ interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum�
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anythi.
-interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;</content><author><name> Erdem Applepie </name></author><category term="Personally" /><summary type="html">Vardy sjdhsad Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</summary></entry></feed>
+interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;</content><author><name> Erdem Applepie </name></author><category term="Personally" /><summary type="html">The quarterly results look great! Revenue was off the chart. Profits were higher than ever. Everything is going according to plan. bold text Italicized text is the cat’s meow. Vardy sjdhsad Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</summary></entry></feed>
