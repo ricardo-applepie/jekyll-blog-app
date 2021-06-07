@@ -635,7 +635,7 @@ title : blog
         {% assign sorted = site.posts | sort: 'date' %}
         {% for post in sorted limit:20 %}
         <div class="blog-container">
-            <a href="/pipe{{ post.url }}">
+            <a href="{{ post.url }}">
                 <div class="post-svg">
 
                     {% if post.svg-specification == "media" %}
