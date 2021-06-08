@@ -181,10 +181,9 @@ layout: general
                     </div>
                     <p class="blog__post-subtitle">{{ post.subtitle }}</p>
 
-                    <h2 class="blog__item-title"><a href="/pipe{{ post.url }}">{{ post.title }}</a></h2>
+                    <h2 class="blog__item-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     <p class="blog__post-excerpt">
                         {{ post.excerpt | strip_html | truncatewords:25 }}
-
                     </p>
                 </div>
                 {% endfor %}
