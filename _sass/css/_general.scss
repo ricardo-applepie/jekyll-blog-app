@@ -398,6 +398,12 @@ ul.services__item{
 }
 
 }
+@media screen and (min-width : 768px) and (max-width : 800px) {
+.youtube-video, .youtube-video-second {
+    height: 339px;
+    width: 100%;
+}
+}
 @media screen and (min-width : 500px) and (max-width : 768px) {
     .visible {
     transform: translateX(0%);
