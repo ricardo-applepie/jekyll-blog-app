@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-08T12:12:57+02:00</updated><id>/feed.xml</id><title type="html">pipe</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to the |pipe| blog</title><link href="/welcome/" rel="alternate" type="text/html" title="Welcome to the |pipe| blog" /><published>2021-06-06T15:16:00+02:00</published><updated>2021-06-06T15:16:00+02:00</updated><id>/welcome</id><content type="html" xml:base="/welcome/">&lt;p&gt;&lt;img src=&quot;/assets/images/mess.jpg&quot; alt=&quot;First End-to-End video for&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-09T08:42:47+02:00</updated><id>/feed.xml</id><title type="html">pipe</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to the |pipe| blog</title><link href="/welcome/" rel="alternate" type="text/html" title="Welcome to the |pipe| blog" /><published>2021-06-06T15:16:00+02:00</published><updated>2021-06-06T15:16:00+02:00</updated><id>/welcome</id><content type="html" xml:base="/welcome/">&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/assets/images/mess.jpg&quot; alt=&quot;First End-to-End video for&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is the place where we lift the covers and show you what we have been upto.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+ Tim Panton&lt;/p&gt;
+
+&lt;p&gt;This is the place where we lift the covers and show you what we have been up to.&lt;/p&gt;
 
 &lt;p&gt;Things we will write about include:&lt;/p&gt;
 
