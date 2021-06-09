@@ -403,6 +403,13 @@ ul.services__item{
     height: 339px;
     width: 100%;
 }
+
+}
+@media screen and (min-width : 1000px) and (max-width : 1060px) {
+    .youtube-video, .youtube-video-second {
+    height: 403px;
+    width: 100%;
+}
 }
 @media screen and (min-width : 500px) and (max-width : 768px) {
     .visible {
