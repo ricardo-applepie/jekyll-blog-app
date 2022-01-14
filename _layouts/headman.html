@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head-meta.html %}
+  {% include head-meta.html %}
 
-<body>
+  <body>
     <div class="container">
-        <div class="container__wrapper">
-            {% include mobile-menu.html %}
-            {{content}}
-            {% include footer.html %}
-
-        </div>
-
+      <div class="container__wrapper">
+        {% include mobile-menu.html %} {{content}} {% include footer.html %}
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
